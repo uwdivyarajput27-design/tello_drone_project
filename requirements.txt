@@ -1,0 +1,12 @@
+opencv-python
+numpy
+mediapipe
+djitellopy
+torch
+torchvision
+torchreid
+insightface
+onnxruntime
+
+# Raspberry Pi only (install via apt/system packages, not pip, on Pi OS):
+# picamera2

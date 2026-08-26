@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Model weights & large binaries (see models/README.md)
+models/*
+!models/README.md
+*.pt
+*.onnx
+*.torchscript
+*.engine
+
+# Enrolled biometric data (personal, don't commit)
+*.pkl
+
+# Media
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.png
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Local tooling config
+.claude/
